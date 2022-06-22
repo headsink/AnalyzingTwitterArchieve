@@ -23,4 +23,4 @@ Trying to analyze Twitter Archive file especially tweet.js with [analyze-tweet](
 }
 ```
 
-use **args** to parse through vscode debugger using launch.js config file.
+use **args** to parse through vscode debugger using launch.js config file. Learn more about the config in launch.json at the [official documentation about python debugging config in vscode](https://code.visualstudio.com/docs/python/debugging#_set-configuration-options).
