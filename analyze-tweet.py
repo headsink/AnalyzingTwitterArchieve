@@ -8,5 +8,5 @@ if __name__ == '__main__':
 
     if args.js_file is None:
         print("No argument. Enter argument -h or --help for more information")
-        exit(1)
+        exit()
 
