@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jszip": "^3.10.0",
+    "twitter-archive-reader": "^7.1.0"
+  }
+}
