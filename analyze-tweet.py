@@ -1,5 +1,5 @@
 import argparse
-
+import os
 
 def load_tweet_from_js_file(js_file):
     tweets = 0
@@ -15,3 +15,5 @@ if __name__ == '__main__':
     if args.js_file is None:
         print("No argument. Enter argument -h or --help for more information")
         exit()
+    else:
+        tweets = load_tweet_from_js_file(args.js_file)
