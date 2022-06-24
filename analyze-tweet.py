@@ -1,8 +1,14 @@
 import argparse
+import json
 import os
 
 def load_tweet_from_js_file(js_file):
-    tweets = 0
+    data = ""
+    with open(js_file,'r') as theDoc:
+        for theline in theDoc:
+            theline = theline.replace('window.YTD.tweet.part0 = ', '')
+            data+=theline
+        tweets = json.loads(data)
     return tweets
 
 
